@@ -1,13 +1,15 @@
 {
-  "name": "quasar-speech-to-text-cordova",
+  "name": "scribespeak",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
   "productName": "ScribeSpeak",
-  "cordovaId": "com.speechtotext.quasar",
+  "cordovaId": "com.scribespeak.quasar",
   "capacitorId": "",
-  "author": "Patrick Monteiro <eng.patrickmonteiro@gmail.com>",
+  "author": "Wilbert Verayin <wilbertverayin@gmail.com>",
   "private": true,
+  "homepage": "https://wilbertverayin.github.io/scribespeak",
   "scripts": {
+    "predeploy": "quasar build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0"
